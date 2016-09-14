@@ -19,13 +19,21 @@ public class MainAppl {
     public static void main(String[] args) {
         // TODO code application logic here
         Vector<Person> vecPersons = new Vector<Person>();
+        Vector<Viech> vecViecher = new Vector<Viech>();
         
         vecPersons.add(new Person("Sammer", "Seas"));
         vecPersons.add(new Person("Lackna", "Öhsers"));
+        vecViecher.add(new Viech("Kuh", "Muuh"));
+        vecViecher.add(new Viech("Schaf", "Bäähh"));
         
         for(Person p : vecPersons)
         {
             System.out.println(p.toString());         
+        }
+        
+        for(Viech v : vecViecher)
+        {
+            System.out.println(v.toString());         
         }
     }
     
