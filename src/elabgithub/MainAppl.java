@@ -22,7 +22,7 @@ public class MainAppl {
         Vector<Viech> vecViecher = new Vector<Viech>();
         
         vecPersons.add(new Person("Sammer", "Seas"));
-        vecPersons.add(new Person("Lackna", "Öhsers"));
+        vecPersons.add(new Person("Schnur", "BRUMBRUMAUTO"));
         vecViecher.add(new Viech("Donkey", "IahIah"));
         vecViecher.add(new Viech("Schaf", "Bäähh"));
         
