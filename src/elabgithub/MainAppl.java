@@ -23,7 +23,7 @@ public class MainAppl {
         
         vecPersons.add(new Person("Sammer", "Seas"));
         vecPersons.add(new Person("Lackna", "Öhsers"));
-        vecViecher.add(new Viech("Mole", "grabgrab"));
+        vecViecher.add(new Viech("Regenwurm", "grabgrab"));
         vecViecher.add(new Viech("Schaf", "Bäähh"));
         
         for(Person p : vecPersons)
